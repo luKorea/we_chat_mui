@@ -1,0 +1,36 @@
+{
+	"index.html": {
+		"resources": [
+			"views/home.html",
+			"home.html"
+		],
+		"refer": [
+			"views/profile.html",
+			"views/paperplane.html",
+			"views/home.html",
+			"views/contact.html",
+			"contact.html",
+			"home.html",
+			"paperplane.html",
+			"profile.html"
+		]
+	},
+	"home.html": {
+		"refer": [
+			"pages/home_chat.html"
+		]
+	},
+	"paperplane.html": {
+		"refer": [
+			"pages/paperplane_friend_header.html"
+		]
+	},
+	"pages/paperplane_friend_header.html": {
+		"resources": [
+			"pages/paperplane_friend.html"
+		],
+		"refer": [
+			"pages/paperplane_friend.html"
+		]
+	}
+}
